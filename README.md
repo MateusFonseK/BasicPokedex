@@ -13,7 +13,7 @@ Este é um projeto simples de Pokedex criado usando HTML, CSS e JavaScript. A Po
 
 ## Carregamento Dinâmico de Imagens
 
-As imagens dos Pokémon são carregadas dinamicamente a partir do repositório no GitHub. A URL utilizada para as imagens é [PokeAPI Sprites Repository](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/).
+As imagens dos Pokémon são carregadas dinamicamente a partir do repositório no GitHub. A URL utilizada para as imagens é [PokeAPI Sprites Repository](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png).
 
 ## Recursos Principais
 
