@@ -4,7 +4,16 @@
 
 ## Descrição do Projeto
 
-Este é um projeto simples de Pokedex criado usando HTML, CSS e JavaScript. A Pokedex exibe informações sobre os primeiros 151 Pokémon da série, utilizando a PokeAPI para obter dados detalhados e carregando imagens dinamicamente a partir do repositório oficial no GitHub.
+Este é um projeto simples de Pokedex criado usando HTML, CSS e JavaScript. A Pokedex exibe informações sobre os primeiros 151 Pokémon da série, utilizando a PokeAPI para obter dados detalhados e carregando imagens dinamicamente a partir do repositório no GitHub.
+
+## Detalhes da Integração com a PokeAPI
+
+- **Endpoint Utilizado:** [PokeAPI - Pokémon Data API](https://pokeapi.co/api/v2/pokemon/)
+- **Detalhes Obtidos:** Nome, número, tipos e outras informações sobre cada Pokémon.
+
+## Carregamento Dinâmico de Imagens
+
+As imagens dos Pokémon são carregadas dinamicamente a partir do repositório no GitHub. A URL utilizada para as imagens é [PokeAPI Sprites Repository](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/).
 
 ## Recursos Principais
 
