@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, rgba(183, 182, 182, 0.511), #969999);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    letter-spacing: 5px;
+}
+
+.pokeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pokemon:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    .imgContainer {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    .imgContainer img {
+        transform: scale(1.2);
+    }
+}
+
+.pokemon {
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.5s ease-in-out, opacity 0.5s;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.imgContainer img {
+    max-width: 90%;
+    margin-top: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.number {
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 2.5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.name {
+    margin: 15px 0 7px;
+    letter-spacing: 1.5px;
+}
+
+.type1,
+.type2 {
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff; 
+}
